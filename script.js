@@ -154,14 +154,14 @@ btnNavigators[0].addEventListener("click", function () {
 });
 
 // onLine
-btnNavigators[0].addEventListener("click", function () {
-  let str = "language = " + navigator.onLine;
+btnNavigators[1].addEventListener("click", function () {
+  let str = "onLine = " + navigator.onLine;
   result.innerHTML = str;
 });
 
 // cookieEnabled
-btnNavigators[0].addEventListener("click", function () {
-  let str = "language = " + navigator.cookieEnabled;
+btnNavigators[2].addEventListener("click", function () {
+  let str = "cookieEnabled = " + navigator.cookieEnabled;
   result.innerHTML = str;
 });
 
